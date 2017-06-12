@@ -26,6 +26,14 @@
                <groupId>org.springframework.ws</groupId>
                <artifactId>spring-ws-core</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -57,6 +65,10 @@
                 </configuration>
             </plugin>
             <!-- end::wsdl[] -->
+
+
+
+
         </plugins>
     </build>
 
